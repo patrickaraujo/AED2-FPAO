@@ -1,7 +1,6 @@
 //Arquivo FilaPrioridade.h
 #define MAX 100
 
-
 struct paciente{
     char nome[30];
     int prio;
