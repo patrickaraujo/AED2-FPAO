@@ -39,6 +39,5 @@ int main(){
 
     libera_FilaPrio(fp);
 
-    system("pause");
     return 0;
 }
