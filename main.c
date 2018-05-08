@@ -17,8 +17,7 @@ int main(){
     strcpy(itens[4].nome, "Inacio");    itens[4].prio = 6;
     strcpy(itens[5].nome, "Edu");    itens[5].prio = 4;
 
-    FilaPrio* fp;
-    fp = cria_FilaPrio();
+    FilaPrio* fp = cria_FilaPrio();
 
     int i;
     for (i = 0; i < n; i++){
