@@ -1,3 +1,5 @@
+#ifndef FILAPRIORIDADE_H_INCLUDED
+#define FILAPRIORIDADE_H_INCLUDED
 //Arquivo FilaPrioridade.h
 #define MAX 100
 
@@ -20,3 +22,5 @@ int tamanho_FilaPrio(FilaPrio* fp);
 int estaCheia_FilaPrio(FilaPrio* fp);
 int estaVazia_FilaPrio(FilaPrio* fp);
 void imprime_FilaPrio(FilaPrio* fp);
+
+#endif // FILAPRIORIDADE_H_INCLUDED
